@@ -23,7 +23,7 @@
   }
   
   .hero {
-    background: url("https://img.freepik.com/free-photo/cascade-boat-clean-china-natural-rural_1417-1356.jpg?size=626&ext=jpg&ga=GA1.1.1368378689.1704103840&semt=ais") center no-repeat;
+    background: url("../image/banner.jpg") center no-repeat;
     background-size: cover;
     height: 50vh;
   }
@@ -104,4 +104,13 @@
   
   .contact {
     background: url("https://img.freepik.com/free-photo/young-woman-with-round-glasses-yellow-sweater_273609-7091.jpg?size=626&ext=jpg&ga=GA1.1.1368378689.1704103840&semt=ais") center no-repeat;
+  }
+
+  .why-sub-section img{
+    height: 200px;
+    width: 300px;
+  }
+
+  .about img {
+    height: 500px;
   }

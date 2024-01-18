@@ -1,4 +1,4 @@
-html {
+      html {
     /* Setting a base font size of 10px give us easier rem calculations
        Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
      */
@@ -54,13 +54,12 @@ html {
   }
   
   img {
-    max-width: 80%;
+    max-width: 100%;
     display: block;
     height: auto;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     margin: 0 auto;
-    /* border: 2px solid red; */
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
   }
   
   #img-div {
@@ -101,4 +100,40 @@ html {
     margin: 0 auto 50px auto;
     text-align: left;
   }
-  
+   body {
+    background-color: #f8f8f8; /* Set a light background color */
+  }
+
+  h1 {
+    color: #3498db; /* Set a blue color for the heading */
+  }
+
+  a {
+    color: #e74c3c; /* Set a red color for links */
+  }
+
+  #main {
+    background-color: #ecf0f1; /* Set a light gray background color for the main content */
+    border: 2px solid #bdc3c7; /* Add a border with a light border color */
+  }
+
+  #img-div {
+    background: #fff; /* Set a white background for the image container */
+  }
+
+  #headline {
+    color: #2ecc71; /* Set a green color for the timeline headline */
+  }
+
+  ul {
+    color: #333; /* Set a dark color for the timeline text */
+  }
+
+  blockquote {
+    /* background-color: #3498db; Set a blue background color for blockquotes */
+    color: #090909; /* Set a white text color for blockquotes */
+  }
+
+  #tribute-link {
+    color: #e67e22; /* Set an orange color for the Wikipedia link */
+  }
