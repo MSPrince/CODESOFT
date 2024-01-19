@@ -40,10 +40,10 @@ $(document).ready(function () {
 
   var typed = new Typed(".typing", {
     strings: [
-      "Fullstack Developer",
+      "FrontEnd Developer",
       "Software Developer",
-      "Python Developer",
-      "Founder",
+      "Java Developer",
+      "Founder of A Doctor'S Diary",
       "Author",
     ],
     typeSpeed: 100,
@@ -53,11 +53,11 @@ $(document).ready(function () {
 
   var typed = new Typed(".typing-2", {
     strings: [
-      "Fullstack Developer",
+      "FrontEnd Developer",
       "Software Developer",
-      "Python Developer",
-      "Founder",
-      "Author",
+      "Java Developer",
+      "Founder of A Doctor'S Diary",
+      "Author ",
     ],
     typeSpeed: 100,
     backSpeed: 60,
@@ -88,3 +88,6 @@ $(document).ready(function () {
     },
   });
 });
+
+
+
