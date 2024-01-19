@@ -268,6 +268,10 @@ header .flex-wrapper { display: none; }
 .light-theme .logo-light,
 .dark-theme .logo-dark { display: block; }
 
+.logo-size{
+  height: 50px;
+  width: 90px;
+}
 header .btn-group {
   display:     flex;
   align-items: center;
